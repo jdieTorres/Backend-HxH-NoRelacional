@@ -247,7 +247,11 @@ app.delete("/personajes/:nombre", async (req, res) => {
   }
 });
 
-console.log(`Servidor ejecutándose en https://backend-hxh-norelacional.onrender.com`);
+const PORT = 3001;
+app.listen(PORT, () => {
+  console.log(`Servidor ejecutándose en https://backend-hxh-norelacional.onrender.com`);
+});
+
 
 
 
