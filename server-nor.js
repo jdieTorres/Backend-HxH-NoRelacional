@@ -250,6 +250,7 @@ app.delete("/personajes/:nombre", async (req, res) => {
 // 🚀 Iniciar servidor
 const PORT = 3000;
 app.listen(PORT, () => {
-  console.log(`Servidor ejecutándose en http://localhost:${PORT}`);
+  console.log(`Servidor ejecutándose en https://backend-hxh-norelacional.onrender.com`);
 });
+
 
