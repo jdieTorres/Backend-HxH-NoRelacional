@@ -34,7 +34,7 @@ const swaggerOptions = {
   definition: {
     openapi: "3.0.0",
     info: {
-      title: "HunterxAPI",
+      title: "HunterxAPI No Relacional",
       version: "1.0.0",
       description: "API REST para gestionar personajes de Hunter x Hunter en un DB No Relacional.",
     },
@@ -252,6 +252,7 @@ const PORT = 3000;
 app.listen(PORT, () => {
   console.log(`Servidor ejecutándose en https://backend-hxh-norelacional.onrender.com`);
 });
+
 
 
 
