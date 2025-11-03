@@ -36,12 +36,12 @@ const swaggerOptions = {
     info: {
       title: "HunterxAPI",
       version: "1.0.0",
-      description: "API REST para gestionar personajes de Hunter x Hunter.",
+      description: "API REST para gestionar personajes de Hunter x Hunter en un DB No Relacional.",
     },
     servers: [
       {
-        url: "http://localhost:3000",
-        description: "Servidor local",
+        url: "https://backend-hxh-norelacional.onrender.com/",
+        description: "Server en Render",
       },
     ],
   },
@@ -252,5 +252,6 @@ const PORT = 3000;
 app.listen(PORT, () => {
   console.log(`Servidor ejecutándose en https://backend-hxh-norelacional.onrender.com`);
 });
+
 
 
